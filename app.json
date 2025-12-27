@@ -1,4 +1,32 @@
 {
-  "name": "SambaCanasta",
-  "displayName": "Samba Canasta"
+  "expo": {
+    "name": "Samba Canasta",
+    "slug": "samba-canasta",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1B5E20"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sambacanasta.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1B5E20"
+      },
+      "package": "com.sambacanasta.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
 }
